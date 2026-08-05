@@ -2,11 +2,6 @@ download/
 *.zip
 .metadata/
 bin/
-download/
-*.zip
-.metadata/
-bin/
-download/
-*.zip
-.metadata/
-bin/
+.log/
+.settings/
+Thumbs.db/
