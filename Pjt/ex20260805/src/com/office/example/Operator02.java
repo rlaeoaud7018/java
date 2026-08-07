@@ -74,6 +74,17 @@ public class Operator02 {
 		System.out.println("ABC".compareTo("DEF"));						// -3
 		System.out.println("DEF".compareTo("ABC"));						// 3
 		
+		String str5 = new String("Hello");
+		String str6 = new String("Hello");
+		
+		System.out.println(str5.equals(str6));
+		
+		
+		str5 = null;
+		if (str5 != null) {
+			System.out.println(str6.equals(str5));
+		}
+		
 		
 	}
 }
